@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Masks of Nyarlathotep — Campaign Map</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+
+  <header>
+    <div>
+      <div class="header-title">Masks of Nyarlathotep</div>
+      <div class="header-sub">Interactive Campaign Map &middot; Call of Cthulhu &middot; 1925&ndash;1926</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="legend-strip" id="legend-strip"></div>
+      <button id="btn-summaries" class="ctrl-btn"
+              title="Chapter Summaries" aria-label="Summaries"
+              style="width:36px;height:36px;font-size:18px">📖</button>
+      <button id="btn-handouts" class="ctrl-btn"
+              title="Hide Handouts" aria-label="Toggle Handouts"
+              style="width:36px;height:36px;font-size:18px">📄</button>
+    </div>
+  </header>
+
+  <div class="main">
+
+    <div id="graph-container">
+      <div class="rune-bg"></div>
+      <svg id="graph"></svg>
+      <div class="controls">
+        <input type="text" id="search-input" placeholder="Search node…" aria-label="Search node">
+        <button class="ctrl-btn" id="btn-zoom-in"  title="Zoom in"    aria-label="Zoom in">+</button>
+        <button class="ctrl-btn" id="btn-zoom-out" title="Zoom out"   aria-label="Zoom out">−</button>
+        <button class="ctrl-btn" id="btn-reset"    title="Reset view" aria-label="Reset">⟳</button>
+      </div>
+    </div>
+
+    <div id="detail-panel" class="hidden">
+      <div class="panel-header">
+        <div class="panel-type" id="p-type">Type</div>
+        <div class="panel-name" id="p-name">Name</div>
+        <span class="panel-close" id="panel-close">✕</span>
+      </div>
+      <div class="panel-body">
+        <div class="panel-desc" id="p-desc">Description</div>
+        <div class="connections-title">Connections</div>
+        <div id="p-connections"></div>
+        <div id="p-star"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="tooltip" id="tooltip">
+    <strong id="tt-name"></strong>
+    <span id="tt-desc"></span>
+  </div>
+
+  <div id="summary-panel" class="hidden">
+    <div class="panel-header" style="position:relative">
+      <div class="panel-name">Chapter Summaries</div>
+      <span class="panel-close" id="summary-close">✕</span>
+    </div>
+    <div class="panel-body" id="summary-content"></div>
+  </div>
+
+  <script src="groups.js"></script>
+  <script src="nodes.js"></script>
+  <script src="links.js"></script>
+  <script src="summaries.js"></script>
+  <script src="mapa.js"></script>
+
+</body>
+</html>
