@@ -60,14 +60,27 @@ const chapterSummaries = [
   {
     chapter: 2,
     title: 'Chapter 2 — England (London), 1925',
-    summary: `<strong>The Conspiracy at Home.</strong> The Penhew Foundation, directed by Edward Gavigan, is the Brotherhood of the Black Pharaoh's London front — receiving Yithian tech from Australia and fabricating rocket components for Penhew. Misr House is the cult's operational HQ.<br><br>
+    summary: `<strong>London: where the shadows grow substantial.</strong> England was the last place Jackson Elias visited before New York. In November 1924 he came to London, visited the Penhew Foundation twice (seeing through Gavigan's lies), was spotted by Brotherhood shadows, and fled on the freighter <em>Phalarope</em> in mid-December. Investigators retrace his steps.<br><br>
 
-<strong>Rival:</strong> Zahra Shafik may attempt to use investigators to eliminate Gavigan and seize control of the London cult.<br>
-<strong>Sidetrack 1:</strong> Lesser Edale, Derbyshire — the cursed Vane family and an ancient evil at Vane Castle.<br>
-<strong>Sidetrack 2:</strong> Miles Shipley, an insane artist whose "mother" is the serpent person Ssathasaa.<br><br>
+<strong>The core investigation path:</strong>
+<ul style="margin:8px 0 8px 16px;line-height:1.8">
+  <li><strong>The Scoop (Fleet Street):</strong> Mickey Mahoney provides three key leads from back issues Elias flagged: the Chelsea Serpent (Shipley sidetrack), the Derbyshire Horror (Lesser Edale sidetrack), and the Slaughter in Soho (Egyptian Murders, direct cult trail). Also points to Inspector Barrington at Scotland Yard.</li>
+  <li><strong>The Penhew Foundation (Devonshire Street, Bloomsbury):</strong> Edward Gavigan, age 55, high priest and director. A polished sorcerer who runs a legitimate Egyptian antiquities institution as cover. His office has a visible floor safe (a trap of identifiable banknotes) and a photo of Misr House on his desk. His basement has a hidden room: coded ledgers, Brotherhood artifacts, Limehouse receipts, and telegrams from al-Shakti. Gavigan visits Derby by train monthly. Essentially untouchable via legal means. If investigators carelessly reveal Kensington holds Elias' notes, Gavigan cables M'Dari in New York to have Kensington killed.</li>
+  <li><strong>Slaughter in Soho / Egyptian Murders:</strong> Inspector Barrington is investigating 19 Brotherhood cult killings over three years. He links the murders to the Blue Pyramid Club and names Zahra Shafik as someone hiding something. His predecessor Inspector Munden was eliminated by the Brotherhood.</li>
+  <li><strong>The Blue Pyramid Club (Soho):</strong> Egyptian-themed private club owned by the terrified Abdul Nawisha and controlled by Zahra Shafik. Belly dancer Yalesha Essam — whose boyfriend was murdered by the Brotherhood — secretly reveals the monthly midnight truck that carries 20+ cultists to Misr House in Essex.</li>
+  <li><strong>Empire Spices (76 Wardour Street):</strong> Zahra Shafik's shop and home. Hidden: the Mirror of Gal (Mythos scrying weapon), extraterrestrial ritual substances, Two Scepters, and a basement shrine to the Black Pharaoh. Zahra's game: sent by al-Shakti to be Gavigan's high priestess but working to destroy him. May use investigators as pawns. If Nitocris is resurrected in Egypt first, she may appear in London to support Shafik's coup.</li>
+  <li><strong>Henson Manufacturing (Derby):</strong> 7 civilian engineers reverse-engineer Yithian technology from Australia into rocket components for Sir Aubrey's doomsday device. Six Brotherhood cultists under Frank Marshall provide security. A giant walk-in safe holds finished parts and Yithian originals. Blueprints signed "Pale Viper." A Randolph Shipping label links Derby to Darwin, Australia.</li>
+  <li><strong>Limehouse Docks / The Ivory Wind:</strong> Puneet Chaudhary's warehouse receives crated rocket parts from Derby. Captain Lars Torvak's ship <em>Ivory Wind</em> ships them to Ho Fang Import/Export in Shanghai. Crates labeled "Cairo Museum" as cover. Intercepting this shipment directly impairs the rocket's guidance system.</li>
+  <li><strong>Misr House (Essex Naze):</strong> Gavigan's country estate on a private island in the North Sea marshes. The Brotherhood holds 13 rites a year here, 20–60 cultists transported monthly from the Blue Pyramid Club. The chapter's climax. If Gavigan escapes, he alerts all other cult leaders worldwide about the investigators.</li>
+</ul>
 
-<strong>Key contacts:</strong> Mickey Mahoney (<em>The Scoop</em>), Yalesha Essam (belly dancer), Lars Torvak (tramp freighter captain), Puneet Chaudhary (illegal shipper).<br><br>
-<strong>Cult score:</strong> Eliminating Gavigan and the London Brotherhood = 1–4 points avoided.`
+<strong>Sidetrack 1 — The Chelsea Serpent:</strong> Miles Shipley (6 Holbein Mews) — an insane painter producing Mythos-accurate canvases under the direction of the serpent person Ssathasaa (disguised as his "mother" Bertha Shipley). Ssathasaa is building Gate-magic into the paintings to summon his kin from the past. Independent of the Great Plan.<br><br>
+
+<strong>Sidetrack 2 — The Derbyshire Horror:</strong> Lesser Edale, Derbyshire. Eloise Vane (21) transforms into a ghoul during the full moon due to an ancient taint in the Vane bloodline. Two villagers were murdered three months ago. Lord Arthur Vane and his son Lawrence drug and confine her in Vane Castle's dungeon each full moon. The transformation is lengthening — a moral dilemma: kill her, confine her forever, or find another way.<br><br>
+
+<strong>Key contacts:</strong> Mickey Mahoney (The Scoop), Inspector James Barrington (Scotland Yard), Yalesha Essam (dancer/informant), Abdul Nawisha (club owner, terrified), Puneet Chaudhary (shipper), Lars Torvak (captain), Frank Marshall (Derby foreman), Thomas Kinnery (Gavigan's secretary — weak link), Miss Jasmine Pink (optional psychic medium).<br><br>
+<strong>Key tome:</strong> L'Équinoxe Divisé (Foundation library) explicitly links Nyarlathotep to the Bloody Tongue cult — a key connection investigators may be missing.<br><br>
+<strong>Cult score:</strong> Eliminating Gavigan and the London Brotherhood = 1–4 points avoided. Intercepting the Limehouse shipment directly impairs the rocket's guidance system.`
   },
   {
     chapter: 3,
